@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Tests\Functional\" />
+    <Folder Include="Tests\Unit\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MyApp.Domain\MyApp.Domain.csproj" />
+    <ProjectReference Include="..\MyApp.Services\MyApp.Services.csproj" />
+  </ItemGroup>
+
+</Project>
